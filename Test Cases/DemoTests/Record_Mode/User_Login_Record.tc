@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is a demot test case</description>
+   <name>User_Login_Record</name>
+   <tag>@smoke, @sanity</tag>
+   <comment></comment>
+   <testCaseGuid>a71f651d-3431-4d1a-b6f9-ae06b31dbec1</testCaseGuid>
+</TestCaseEntity>

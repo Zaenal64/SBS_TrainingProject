@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User_Login_Manual</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ffe18d05-ae14-460a-8dd3-e74c8334dac7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e38ee71-d2ba-45ff-8bcb-e147273ff8f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>9e38ee71-d2ba-45ff-8bcb-e147273ff8f6</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>
