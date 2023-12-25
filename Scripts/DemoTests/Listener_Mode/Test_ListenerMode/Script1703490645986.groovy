@@ -17,15 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
-
-WebUI.setText(findTestObject('Login_User/input_Username'), Username)
-
-WebUI.setEncryptedText(findTestObject('Login_User/input_Password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
-
-WebUI.click(findTestObject('Login_User/button_Login'))
-
-WebUI.verifyElementVisible(findTestObject('Login_User/Dashboad _Page'))
-
-WebUI.closeBrowser()
-
+println 'I am inside the Test Case'

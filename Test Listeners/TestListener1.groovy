@@ -22,41 +22,26 @@ import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
-import com.kms.katalon.core.util.KeywordUtil
-
-class Hook {
-	def openBrowser() {
-		WebUI.openBrowser('');
-		WebUI.maximizeWindow();
-	}
-
-	def closeBrowser() {
-		WebUI.closeBrowser();
-	}
-
+class TestListener1 {
 	
 	@BeforeTestCase
-	def beforeTestCase(TestCaseContext testCaseContext) {
-		KeywordUtil.logInfo('Test Case: ' + testCaseContext.getTestCaseId())
-		this.openBrowser()
+	def beforeTestCase() {
+		println 'I am inside beforeTestCase'
 	}
-
+	
 	@AfterTestCase
-	def afterTestCase(TestCaseContext testCaseContext) {
-		KeywordUtil.logInfo('Test Case: ' + testCaseContext.getTestCaseId())
-		this.closeBrowser()
+	def afterTestCase() {
+		println 'I am inside afterTestCase'
 	}
-
-
+	
 	@BeforeTestSuite
-	def beforeTestSuite(TestSuiteContext testSuiteContext) {
-		KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
-		this.openBrowser()
+	def beforeTestSuite() {
+		println 'I am inside beforeTestSuite'
+	}
+	
+	@AfterTestSuite
+	def afterTestSuite() {
+		println 'I am inside afterTestSuite'
 	}
 
-	@AfterTestSuite
-	def afterTestSuite(TestSuiteContext testSuiteContext) {
-		KeywordUtil.logInfo('Test Suite: ' + testSuiteContext.getTestSuiteId())
-		this.closeBrowser()
-	}
 }
