@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_diff2</name>
+   <tag></tag>
+   <elementGuidId>cad80309-bb21-4160-a641-b3a689990e91</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(3) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'?diff2')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9d01e978-a512-48cb-876d-22b807bfc19b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>?diff2</value>
+      <webElementGuid>628bae55-3302-4ab8-a47b-2ed7daed10a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>?diff2</value>
+      <webElementGuid>84d7d4b5-216a-4414-9b54-a3e6de8f0894</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;demo-page center&quot;]/div[@class=&quot;section&quot;]/p[3]/a[1]</value>
+      <webElementGuid>871a5f74-0bb4-4a14-b52e-393efdf09c88</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'?diff2')]</value>
+      <webElementGuid>54519197-79d8-48a3-a65e-25dd055aa7fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='?diff1'])[1]/following::a[1]</value>
+      <webElementGuid>68687e84-392e-4e1e-9014-52880c6be923</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='!'])[2]/following::a[2]</value>
+      <webElementGuid>fcf16c5a-ce6c-434e-a91f-867c195ec03a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HH:MM:SS.sss'])[1]/preceding::a[1]</value>
+      <webElementGuid>aa832a98-0170-4022-8fb2-9468c102c7a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HH:MM:SS.sss'])[2]/preceding::a[1]</value>
+      <webElementGuid>7e5f0992-11a8-4841-9aca-9041a5de5902</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='?diff2']/parent::*</value>
+      <webElementGuid>1aae1cc0-a01f-4c5a-b60d-133744a6ae17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '?diff2')]</value>
+      <webElementGuid>adc09ee2-2ccb-446e-87d6-c5514b6ff37c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[3]/a</value>
+      <webElementGuid>3f0dbcd3-fa42-4132-8a2c-e662b69ba7d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '?diff2' and (text() = '?diff2' or . = '?diff2')]</value>
+      <webElementGuid>916ba62f-8870-4d44-b651-6575819b3343</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

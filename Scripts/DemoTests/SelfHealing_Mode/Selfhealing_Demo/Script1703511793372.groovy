@@ -17,21 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), 'Admin')
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.verifyTextPresent('Hello', false, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/p_TestF TestL'))
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
+    0)
 
 WebUI.closeBrowser()
 

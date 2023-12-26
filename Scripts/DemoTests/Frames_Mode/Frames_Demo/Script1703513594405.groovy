@@ -19,19 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+WebUI.navigateToUrl('https://www.selenium.dev/selenium/docs/api/java/index.html')
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), 'Admin')
+WebUI.click(findTestObject('Object Repository/Page_Overview/a_org.openqa.selenium'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.click(findTestObject('Object Repository/Page_org.openqa.selenium/a_Overview'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
+WebUI.click(findTestObject('Object Repository/Page_Overview/a_org.openqa.selenium.devtools'))
 
-WebUI.verifyTextPresent('Hello', false, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/p_TestF TestL'))
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'))
+WebUI.click(findTestObject('Object Repository/Page_org.openqa.selenium.devtools/a_Overview'))
 
 WebUI.closeBrowser()
 

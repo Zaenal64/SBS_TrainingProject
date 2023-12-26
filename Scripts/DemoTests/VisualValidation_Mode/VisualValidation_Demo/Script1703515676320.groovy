@@ -19,19 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+WebUI.navigateToUrl('https://applitools.com/helloworld2/?')
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), 'Admin')
+WebUI.click(findTestObject('Object Repository/Page_Applitools/a_diff1'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+CustomKeywords.'com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow'('Test1One1')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
+WebUI.click(findTestObject('Object Repository/Page_Applitools/a_diff2'))
 
-WebUI.verifyTextPresent('Hello', false, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Applitools/button_Click me'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/p_TestF TestL'))
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'))
+CustomKeywords.'com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow'('Test2Two2')
 
 WebUI.closeBrowser()
 
